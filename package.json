@@ -1,0 +1,39 @@
+{
+  "name": "npm-deps-graph-cli",
+  "version": "1.0.0",
+  "description": "Visualize npm dependency graph as ASCII tree in the terminal",
+  "type": "module",
+  "bin": {
+    "deps-graph": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "npm",
+    "dependencies",
+    "graph",
+    "tree",
+    "cli",
+    "ascii",
+    "visualization"
+  ],
+  "author": "okirmio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okirmio-create/npm-deps-graph-cli.git"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  }
+}
